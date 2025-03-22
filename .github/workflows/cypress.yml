@@ -2,7 +2,7 @@ name: Run Cypress Tests
 
 on:
   schedule:
-    - cron: '10 20 * * 5,6'  # Runs at 9 AM PKT (4 AM UTC) Monday-Friday
+    - cron: '0 21 * * 5'  # Runs at 9 AM PKT (4 AM UTC) Monday-Friday
   workflow_dispatch: # Allows manual execution from GitHub Actions
 
 jobs:
