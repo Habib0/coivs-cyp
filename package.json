@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "scripts": "cypress run",
+    "cyp": "npx cypress run --config-file=cypress.config.js --headless"
+  },
   "devDependencies": {
     "cypress": "^14.2.0"
   }
